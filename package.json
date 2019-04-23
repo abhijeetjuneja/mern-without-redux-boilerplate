@@ -1,0 +1,15 @@
+{
+  "name": "React-Express-FullStack-Boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "heroku-postbuild": "npm install -g concurrently && concurrently --kill-others \"cd client/src && npm install --only=dev && npm install && npm build\" \"cd server && nodemon index.js\"",
+    "start": "npm install -g concurrently && concurrently --kill-others \"cd client && npm install && npm start\" \"cd server && npm install && nodemon index.js\""
+  },
+  "keywords": [],
+  "author": "Abhijeet Juneja",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "latest"
+  }
+}

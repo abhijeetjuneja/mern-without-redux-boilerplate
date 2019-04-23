@@ -1,0 +1,40 @@
+{
+  "name": "React-Express-FullStack-Boilerplate-Server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0",
+    "nodemon": "^1.9.2"
+  },
+  "dependencies": {
+    "axios": "0.13.1",
+    "bcrypt": "^0.8.7",
+    "bcrypt-nodejs": "latest",
+    "bluebird": "^3.4.1",
+    "body-parser": "^1.15.2",
+    "bookshelf": "^0.10.0",
+    "express": "^4.14.0",
+    "jsonwebtoken": "^7.1.7",
+    "mongoose": "~4.2.4",
+    "mongoose-title-case": "latest",
+    "mongoose-validator": "latest",
+    "morgan": "~1.5.0",
+    "lodash": "^4.13.1",
+    "pg": "^6.0.2",
+    "shortid": "^2.2.6",
+    "validator": "^5.4.0",
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0",
+    "nodemon": "^1.9.2",
+    "express-session": "latest",
+    "concurrently": "latest"
+  }
+}
